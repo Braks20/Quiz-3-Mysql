@@ -1,0 +1,13 @@
+SQL: Conceptos Clave
+JOIN: R/ Es el comando para unir tablas, permite ver datos de distintos lugares como si fueran una sola tabla
+Tipos de JOIN:
+INNER: Solo lo que coincide en ambas
+LEFT: Todo lo de la izquierda + coincidencias de la derecha
+RIGHT: Todo lo de la derecha + coincidencias de la izquierda
+FULL: Todo lo de ambas tablas, coincida o no
+Clave Foránea (FK): R/ Es un "vínculo", es una columna que guarda el ID de otra tabla para conectar los datos de forma lógica y segura
+Relación Muchos a Muchos: R/ Cuando varios elementos de A se relacionan con varios de B y la regla de oro es: Siempre requiere una tabla intermedia para funcionar
+GROUP BY: R/ Sirve para crear grupos, se usa para resumir datos (por ej: sumar ventas por ciudad o contar alumnos por clase)
+HAVING: R/ Es el filtro de los grupos
+WHERE filtra filas antes de agrupar
+HAVING filtra los resultados finales después de usar GROUP BY
